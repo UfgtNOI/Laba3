@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 else result += char
             }
-            resultText.text = "$result  $sum"
+            resultText.text = "$result \n количество латинских строчных букв = $sum"
         }
     }
 }
